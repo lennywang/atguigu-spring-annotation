@@ -1,0 +1,14 @@
+com\atguigu\config\MainConfig.class
+com\atguigu\aop\LogAspects.class
+com\atguigu\config\MainConfigOfAOP.class
+com\atguigu\bean\Color.class
+com\atguigu\aop\MathCalculator.class
+com\atguigu\tx\UserService.class
+com\atguigu\tx\TxConfig.class
+com\atguigu\bean\Car.class
+com\atguigu\config\MainConfigOfLifeCycle.class
+com\atguigu\bean\ColorFactoryBean.class
+com\atguigu\config\MainConfigOfProfile.class
+com\atguigu\tx\UserDao.class
+com\atguigu\bean\Yellow.class
+com\atguigu\tx\JdbcDataSource.class

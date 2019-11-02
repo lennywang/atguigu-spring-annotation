@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-@PropertySource("classpath:/tx/config.properties")
+@PropertySource("classpath:com/atguigu/tx/config.properties")
 @Configuration
 public class JdbcDataSource {
 
@@ -51,5 +51,15 @@ public class JdbcDataSource {
     @Value("${jdbc.jdbcurl}")
     public void setJdbcUrl(String jdbcUrl) {
         this.jdbcUrl = jdbcUrl;
+    }
+
+    @Override
+    public String toString() {
+        return "JdbcDataSource{" +
+                "user='" + user + '\'' +
+                ", password='" + password + '\'' +
+                ", driverClass='" + driverClass + '\'' +
+                ", jdbcUrl='" + jdbcUrl + '\'' +
+                '}';
     }
 }

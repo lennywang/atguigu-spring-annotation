@@ -24,11 +24,22 @@ public class TxConfig{
 
     @Bean
     public DataSource dataSource() throws Exception {
+        System.out.println(jdbcDataSource);
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         dataSource.setUser(jdbcDataSource.getUser());
         dataSource.setPassword(jdbcDataSource.getPassword());
         dataSource.setJdbcUrl(jdbcDataSource.getJdbcUrl());
         dataSource.setDriverClass(jdbcDataSource.getDriverClass());
+
+//        dataSource.setUser("root");
+//        dataSource.setPassword("root");
+//        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/test");//jdbc:mysql://localhost:3306/test
+//        dataSource.setDriverClass("com.mysql.jdbc.Driver");
+
+        System.out.println(dataSource.getDriverClass());
+        System.out.println(dataSource.getJdbcUrl());
+        System.out.println(dataSource.getUser());
+        System.out.println(dataSource.getPassword());
         return dataSource;
     }
 

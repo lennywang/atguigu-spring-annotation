@@ -13,12 +13,12 @@ public class IOCTest {
     @Test
     public void test01()
     {
-        Object bean = applicationContext.getBean("");
-        Object bean2 = applicationContext.getBean("");
+        Object bean = applicationContext.getBean("colorFactoryBean");
+        Object bean2 = applicationContext.getBean("colorFactoryBean");
         System.out.println("bean的类型："+bean.getClass());
         System.out.println(bean==bean2);
 
-        Object bean3 = applicationContext.getBean("");
+        Object bean3 = applicationContext.getBean("&colorFactoryBean");
         System.out.println(bean3.getClass());
     }
 }
