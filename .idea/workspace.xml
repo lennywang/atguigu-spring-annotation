@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3ee0da-da8f-441f-9ae7-589b2cb7f339" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_rc_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_12_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/spring-annotation.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_16.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-annotation.iml" afterPath="$PROJECT_DIR$/.idea/spring-annotation.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/tx/JdbcDataSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/tx/JdbcDataSource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/tx/TxConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/tx/TxConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/tx/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/tx/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/tx/config.properties" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/tx/config.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Profile.class" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Profile.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/tx/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="2" column="62" lean-forward="true" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+            <state relative-caret-position="81">
+              <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
               <folding>
                 <marker date="1572664679632" expanded="true" signature="383:429" ph="insert into tbl_user... " />
               </folding>
@@ -68,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/tx/TxConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -96,11 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql-connector-java-5.1.16.pom" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/5.1.16/mysql-connector-java-5.1.16.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,16 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
               <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOCTest_Tx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest_Tx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -191,9 +170,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/tx/JdbcDataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/tx/config.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/tx/TxConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/tx/UserDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -463,23 +442,11 @@
       <workItem from="1572659751666" duration="1676000" />
       <workItem from="1572661569268" duration="1634000" />
       <workItem from="1572663265109" duration="598000" />
-      <workItem from="1572664076670" duration="643000" />
+      <workItem from="1572664076670" duration="1150000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 10h 49m 07s.xml">
-      <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 10h 50m 19s.xml">
-      <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 10h 50m 59s.xml">
-      <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 11h 08m 45s.xml">
-      <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 11h 09m 04s.xml">
       <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
     </history-entry>
@@ -498,9 +465,21 @@
     <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 11h 18m 28s.xml">
       <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 11h 18m 43s.xml">
+      <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 11h 25m 48s.xml">
+      <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 11h 26m 52s.xml">
+      <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOCTest_Tx_test01 - 2019.11.02 at 11h 27m 07s.xml">
+      <configuration name="IOCTest_Tx.test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20996000" />
+    <option name="totallyTimeSpent" value="21503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -550,13 +529,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -915,18 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/tx/TxConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -944,11 +908,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/tx/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" column="62" lean-forward="true" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        <state relative-caret-position="81">
+          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
           <folding>
             <marker date="1572664679632" expanded="true" signature="383:429" ph="insert into tbl_user... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/5.1.16/mysql-connector-java-5.1.16.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
