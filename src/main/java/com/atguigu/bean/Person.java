@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Value;
  *
  **/
 public class Person {
-    @Value("张三")
+    //@Value("张三")
     private String name;
-    @Value("#{20-2}")
+   //@Value("#{20-2}")
     private Integer age;
-    @Value("${person.nickname}")
+   //@Value("${person.nickname}")
     private String nickName;
 
     public String getName() {
@@ -36,6 +36,17 @@ public class Person {
     public void setNickName(String nickName) {
         this.nickName = nickName;
     }
+
+    public Person() {
+    }
+
+    public Person(String name,Integer age,String nickName)
+    {
+        this.name=name;
+        this.age=age;
+        this.nickName=nickName;
+    }
+
 
     @Override
     public String toString() {

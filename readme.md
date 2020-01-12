@@ -49,3 +49,13 @@ Cat...destroy...
 3）、@Qualifier("bookDao")：使用@Qualifier指定需要装配的组件的id，而不是使用属性名  
 4）、自动装配默认一定要将属性赋值好，没有就会报错；可以使用@Autowired(required=false);  
 5）、@Primary：让Spring进行自动装配的时候，默认使用首选的bean；也可以继续使用@Qualifier指定需要装配的bean的名字
+
+### 3、@Enable*注解
+```
+@Enable*其实就是使用了@Import，@Import其实就是导入了配置类。 
+
+@EnableAutoConfiguration 
+@EnableAspectJAutoProxy 
+@EnableWebMvc 
+@EnableAsync
+```
